@@ -1,0 +1,52 @@
+.left{
+    float: left;
+    height:600px;
+    width: 50%;
+    overflow-x: hidden;
+    background-image: url(..//IMAGES/Exam-1-feat.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    align-items: center;
+    z-index: -1;
+}
+.right{
+    
+    float:right;
+    height:525px;
+    width: 50%;
+    background-color: rgb(250, 220, 206);
+    overflow-x: hidden;
+    margin: auto;
+
+}
+
+.right form{
+    text-align: center;
+    padding:10px;
+    
+}
+.right form select{
+   margin:10px;
+   padding:8px;
+   font-size: large;
+   background-color: rgb(207, 239, 248);
+
+}
+.right form input{
+    margin:10px;
+    padding:8px;
+    font-size: large;
+    background-color: rgb(207, 239, 248);
+
+    border-radius: 10px;
+ }
+ .res{
+     margin-top: 25px;
+     margin-left:350px;
+     font-size: large;
+ }
+ .name{
+     font-size: larger;
+     margin-left:250px;
+ }
+ 

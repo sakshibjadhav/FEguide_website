@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="../CSS/RESET.css">
+<link rel="stylesheet" href="../CSS/index.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  background-image: url(..//IMAGES/AboutUs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+  color: #000;
+
+}
+
+
+.container {
+  padding: 20px;
+}
+
+.container h2 {
+  font-size:24px;
+  margin:10px;
+}
+
+.container p {
+  margin:10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: #A9A9A9;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #339933;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #339966;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1 style = "font-size: 48px;"> <i class='fas fa-laptop-house'></i> FE GUIDE</h1>
+    <br>
+    <nav>
+            <a href="..//HTML/index.html"><i class='fas fa-home'></i></a>
+   
+            <div class="dropdown">
+                <a class="dropbtn">Syllabus
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                  <a href="..//HTML/SEM1.html">Sem 1</a>
+                  <a href="..//HTML/SEM2.html">Sem 2</a>
+                  
+                </div>
+                
+            </div>
+            <a href="..//HTML/FinalStudyNotes.html">Study Notes</a>
+            <a href="http://localhost/FEguide/MINI PROJECT/PHP/questionpaper.php">Question Papers</a>
+            <a href="http://localhost/FEguide/MINI PROJECT/PHP/model.php">Question Papers solutions</a>
+            <div class="nright">
+            <a href="..//HTML/FinalAboutUs.html">About us</a>
+            <a href="http://localhost/FEguide/MINI%20PROJECT/PHP/connect.php">Contact us</a>  
+            </div>          
+    </nav>    
+</header>  
+<div class="about-section">
+</div>
+
+<h2 style="text-align:center;font-size:30px;margin:20px; color: #DC143C">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Sakshi Jadhav</h2>
+        <p class="title">Group Leader</p>
+        <p><button class="button">sakhi.jadhav_19@sakec.ac.in</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Aditya Jain</h2>
+        <p class="title">Group Member</p>
+        <p><button class="button">aditya.jain_19@sakec.ac.in</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Jay Karolia</h2>
+        <p class="title">Group Member</p>
+        <p><button class="button">jay.karolia_19@sakec.ac.in</button></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>Isha Kulkarni</h2>
+        <p class="title">Group Member</p>
+        <p><button class="button">isha.kulkarni_19@sakec.ac.in</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div style="text-align: center;">
+      &COPY; 
+  </div>
+</footer> 
+</body>
+</html>

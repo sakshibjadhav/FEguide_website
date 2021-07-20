@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="..//CSS/RESET.css">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="../CSS/index.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #33cc33;
+  color: white;
+  padding: 12px 20px;
+  border: solid;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #009933;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <h1 style = "font-size: 48px;"> <i class='fas fa-laptop-house'></i> FE GUIDE</h1>
+    <br>
+    <nav>
+            <a href="..//HTML/index.html"><i class='fas fa-home'></i></a>
+   
+            <div class="dropdown">
+                <a class="dropbtn">Syllabus
+                  <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                  <a href="..//HTML/SEM1.html">Sem 1</a>
+                  <a href="..//HTML/SEM2.html">Sem 2</a>
+                  
+                </div>
+                
+            </div>
+            <a href="..//HTML/FinalStudyNotes.html">Study Notes</a>
+            <a href="http://localhost/FEguide/MINI PROJECT/PHP/questionpaper.php">Question Papers</a>
+            <a href="http://localhost/FEguide/MINI PROJECT/PHP/model.php">Question Papers solutions</a>
+            <div class="nright">
+            <a href="..//HTML/FinalAboutUs.html">About us</a>
+            <a href="http://localhost/FEguide/MINI%20PROJECT/PHP/connect.php">Contact us</a>  
+            </div>          
+    </nav>    
+</header> 
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Any query just leave us a message...</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="..//IMAGES/ContactUs.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="..//PHP/connect.php" method="post">
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Your first name..">
+        <label for="lastName">Last Name</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Your last name..">
+        <label for="emailId">Email-id</label>
+        <input type="text" id="emailId" name="emailId" placeholder="Your Email-id..">
+        <label for="college">College name</label>
+        <input type="text" id="college" name="college" placeholder="Your college name..">
+        <label for="comment">Comment</label>
+        <input type="text" id="comment" name="comment" placeholder="write something..">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div style="text-align: center;">
+      &COPY;
+  </div>
+</footer> 
+</body>
+</html>
